@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timex Watches</title>
+
+    <!-- style.css -->
+    <link rel="stylesheet" href=" style.css" />
+
+    <!-- swiper js -->
+    <link rel="stylesheet" href=" swiper-bundle.min.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- remix icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav">
+        <div class="logo">
+          <p>Time<span><i class="ri-twitter-x-line"></i></span></p>
+        </div>
+        <div class="menu">
+          <ul class="menu-list" id="menulist">
+            <li class="list-item"><a href="#home">Home</a></li>
+            <li class="list-item"><a href="#about">About</a></li>
+            <li class="list-item"><a href="#services">Services</a></li>
+            <li class="list-item"><a href="#contact">Contact</a></li>
+            <div class="btn-close" id="btnclose"><i class="ri-close-fill"></i></div>
+          </ul>
+        </div>
+        <div class="btn-open" id="btnopen"><i class="ri-menu-3-line"></i></div>
+        <div class="icon-container" id="icon">
+          <div class="icons"><i class="ri-instagram-line"></i></div>
+          <div class="icons"><i class="ri-facebook-box-line"></i></div>
+          <div class="icons"><i class="ri-twitter-line"></i></div>
+        </div>
+      </div>
+      <section class="section1">
+        <div class="home">
+          <div class="watch-details">
+            <div class="star-container">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
+            <div class="watch-name">
+              <h1>Timex Custom <br>Timepiece small <br> Edition</h1>
+            </div>
+            <div class="watch-price">
+              <p><span>$</span>350</p>
+            </div>
+            <div class="cart-btn">
+              <button id="cartbtn" onclick="showbtn()">ADD TO CART <span><i class="ri-arrow-right-line"></i></span></button>
+              <div class="added" id="added-cart">
+                <i class="ri-shopping-cart-line"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="watch-image-container  ">
+            <div class="watch-wrapper ">
+            <div class="images  swiper-slide">
+              <img src="watch4.png" alt="">
+            </div>
+            
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+          <div class="watch-description">
+            <div class="desc-image">
+              <img src="watchicon.png" alt="">
+            </div>
+            <div class="icon-desc">
+              <p>Elevate your style with the Timex Classic Men's Watch, a masterpiece of craftsmanship and design. This exquisite timepiece seamlessly blends classic aesthetics with modern functionality, making it a must-have accessory for any discerning individual.</p>
+            </div>
+          </div>
+        </div> 
+      </section>
+    </div>
+    <script src="gsap.min.js"></script>                
+    <script src="script.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+  </body>
+</html>
